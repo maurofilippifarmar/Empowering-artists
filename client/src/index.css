@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(105, 105, 105);
+  color: rgb(24, 23, 23);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100vw;
+
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  flex-end: end;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin-right: 10%;
+}
+
+.inputInHomepage {
+  justify-content: left;
+  left: 10%;
+
+  justify-content: flex-start;
+}
+
+.navigationIntoOtherPages {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-end: end;
+  justify-content: flex-end;
+
+  margin: 1.4rem;
+}
+
+li {
+  color: white;
+  margin-left: 10%;
+
+  text-decoration: none;
+  align-items: flex-end;
+  right: 1%;
+  color: white;
+}
+
+.api-section {
+  width: 95vw;
+  height: 35vh;
+  display: flex;
+  margin-right: 10%;
+  border: 2px solid brown;
+}
+
+.fetch-api {
+  width: 50vw;
+  border-right: 2px solid black;
+}
+
+.the-links {
+  display: block;
+  border-bottom: 1px solid black;
+}
+
+.artists-section {
+  margin-top: 2%;
+  width: 95vw;
+  height: 35vh;
+  display: flex;
+  margin-right: 10%;
+  border: 2px solid brown;
+}
+
+.artists {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  word-spacing: normal;
+  width: 100vw;
+  height: 60%;
+  text-align: center;
+  /* background-color: blue; */
+  padding: 10%;
+  justify-content: center;
+  align-items: baseline;
+  line-height: 50%;
+}
+
+.small-artists {
+  margin: 1%;
+  height: 40%;
+  width: 23%;
+  justify-content: center;
+
+  border: 1px solid black;
+  border-radius: 20%;
+  line-height: 55%;
+  padding: 1rem;
+}
+
+.albums-section {
+  margin-top: 2%;
+  width: 95vw;
+  height: 35vh;
+  display: flex;
+  margin-right: 10%;
+  border: 2px solid brown;
+}
+
+.albums {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  word-spacing: normal;
+  width: 100vw;
+  height: 60%;
+  text-align: center;
+  /* background-color: blue; */
+  padding: 10%;
+  justify-content: center;
+  align-items: baseline;
+  line-height: 50%;
+}
+
+.small-albums {
+  margin: 1%;
+  height: 40%;
+  width: 23%;
+  justify-content: center;
+
+  border-radius: 20%;
+  line-height: 55%;
+  padding: 1rem;
+}
+
+/* trying the new them of slider */
+
+.slick-slider {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.slick-slide {
+  margin: 0 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.user img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.user p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.images {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
